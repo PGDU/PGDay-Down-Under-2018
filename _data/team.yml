@@ -1,0 +1,100 @@
+-
+  id: 0
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  team: true
+  ribbon:
+    #- {abbr: "GDG", title: "Google Developer Group"}
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+  #  - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+  #  - {name: "github", link: "https://github.com/zasadnyy"}
+  #  - {name: "site", link: "http://zasadnyy.com/"}
+-
+  id: 1
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  team: true
+  ribbon:
+    #- {abbr: "GDG", title: "Google Developer Group"}
+#  social:
+#    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+#    - {name: "github", link: "https://github.com/ozasadnyy"}
+-
+  id: 2
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  team: true
+  ribbon:
+#    - {abbr: "GDG", title: "Google Developer Group"}
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+  #  - {name: "twitter", link: "https://twitter.com/p1f"}
+  #  - {name: "site", link: "http://andrusiv.com/"}
+-
+  id: 4
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+  #  - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+  #  - {name: "github", link: "https://github.com/dmytrodanylyk"}
+-
+  id: 7
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+  #  - {name: "site", link: "http://olostan.name/"}
+-
+  id: 20
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+  #  - {name: "site", link: "http://olostan.name/"}
+-
+  id: 21
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+  #  - {name: "site", link: "http://olostan.name/"}
+-
+  id: 22
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl: Andrea.jpg
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+  #  - {name: "site", link: "http://olostan.name/"}
+-
+  id: 23
+  name: ""
+  surname: ""
+  title: "Talk Selection Committee Member"
+  thumbnailUrl:
+  subTeam: true
+  #social:
+  #  - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+  #  - {name: "site", link: "http://olostan.name/"}

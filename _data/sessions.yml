@@ -1,0 +1,132 @@
+-
+  id: 000
+  title: "Registration"
+  place: "Hall'"
+  service: true
+  description: ""
+-
+  id: 080
+  title: "Welcome"
+  place: "Hall'"
+  service: true
+  description: ""
+-
+  id: 002
+  title: "Morning Tea"
+  place: "Bobby McGee'"
+  service: true
+  description: ""
+-
+  id: 005
+  title: "Afternoon Tea"
+  place: "Bobby McGee'"
+  service: true
+  description: ""
+-
+  id: 003
+  title: "Lunch Break"
+  place: "Bobby McGee'"
+  service: true
+-
+  id: 007
+  title: "Event Wrap Up"
+  place: "Conference Room'"
+  service: true
+-
+  id: 008
+  title: "Networking Drinks"
+  place: "Hall"
+  service: true
+  description: ""
+-
+  id: 090
+  title: "Securing PostgreSQL -- Exploring the PostgreSQL STIG and Beyond"
+  description: "There are many aspects and considerations when securing PostgreSQL. This talk will cover some examples of the dangers associated with typical default installations, along with built-in features and extensions available to mitigate them. It will focus on the recently published DISA PostgreSQL STIG. PostgreSQL is the first completely open source database to receive a published STIG."
+  subtype: keynote
+  speakers: [5]
+  #language: en
+  #complexity: "Intermediate"
+  presentation: "/assets/SecurePostgreSQL.pdf"
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 001
+  title: "How to teach an elephant to dance rock’n’roll or unconvetional techniques of query optimization in PostgreSQL"
+  description: "Very technical presentation about uncommon techniques of query optimization (outside of adding indexes/changing database configuration)."
+  subtype: presentation
+  speakers: [10]
+  #language: en
+  #complexity: "Intermediate"
+  presentation: " "
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 307
+  title: "Need is the mother of all Inventions!! Is very true for PostgreSQL 10 Logical Replication"
+  description: "Before PostgreSQL 10 'Logical Replication', built-in streaming replication was all time favourite HA solution. It was working quite well to fulfil the need to replicate master to have a replica. Introduction of hot streaming replication added another feather to its cap and opens the way to use ideally sitting replica for read only queries. But, there are many use-cases where it is not a good fit.
+                With this talk, we will discuss real life use cases where logical replication is best fit and physical replication (streaming replication) does not suffice. We will showcase its need and how to achieve it with a quick demo."
+  subtype: presentation
+  speakers: [7]
+  #language: en
+  #complexity: "Intermediate"
+  presentation: "/assets/Rajni_PGDay_Logical_replication.pdf "
+-
+  id: 010
+  title: "Queues in PostgreSQL"
+  description: " Many projects involve something resembling job or message queuing. This talk will look at:
+  the pros and cons of using a plain old relational database for this type of workload rather than specialized technology;
+  approaches and designs;
+  special considerations for PostgreSQL and
+  potential improvements."
+  subtype: presentation
+  speakers: [9]
+  #language: uk
+  #complexity: "Beginner"
+  presentation: "/assets/queues-pgday-au-2017.pdf"
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 503
+  title: "Distributed PostgreSQL"
+  description: "How can we get High Availability? How do we scale PostgreSQL? How do we link databases together? Review of open source technology covering replication - physical and logical, Foreign Data Wrappers as well as Postgres-BDR and Postgres-XL and other roadmap items."
+  subtype: keynote
+  speakers: [6]
+  #language: en
+  #complexity: "Expert"
+  presentation: " "
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 004
+  title: "How to contribute to PostgreSQL"
+  description: "There are plenty of ways to contribute to PostgreSQL and some of the
+                ways are may not be known to many people. This topic is to cover most
+                of the ways that are available to contribute to PostgreSQL database
+                by individuals and companies. Many people feels contribution to
+                PostgreSQL is difficult and it is possible only to the people
+                who have knowledge on database, language and etc. This topic
+                is to cover all the ways of contribution to PostgreSQL."
+  subtype: presentation
+  speakers: [11]
+  #language: en
+  #complexity: "Beginner"
+  presentation: "/assets/How to contribute PostgreSQL.pdf"
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 006
+  title: "Multimaster isn't magic: when and how to use multi-master replication and BDR"
+  description: "Keeping your data in more than one place is vital for business continuity, and databases are no exception. Backups are great, but they won't help you when your normally-connected EU, US and Australian operations all want to continue operating during a major WAN outage. This is where multi-master replication systems come into their own - but they also come with often overlooked costs and downsides. Bi-Directional Replication (BDR) for PostgreSQL can help solve some users' availability challenges in a globally distributed environment... if it's applied correctly.
+  Multi-master is not magic high availability secret-sauce that can be applied to every problem, no matter what some major vendors' sales teams would like you to believe.
+  Learn about when to use - and not to use - multi-master replication in general, and BDR in particular."
+  subtype: presentation
+  speakers: [8]
+  #language: en
+  #complexity: "Beginner"
+  presentation: "/assets/MultiMasterDesignPatterns.pdf "
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+-
+  id: 009
+  title: "Lightning Talk Session"
+  description: "Short talk. Pay attention, take notes and hold your questions...you will have the chance to get more details over drinks!"
+  subtype: presentation
+  speakers: [12,13,14]
+  #language: en
+  #complexity: "Beginner"
+  presentation: "/assets/PGDayOz2017_centralisingAuth.pdf"
+  #video: "//www.youtube.com/embed/v3SCiUqI1yQ"

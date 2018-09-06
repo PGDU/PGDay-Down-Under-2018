@@ -1,0 +1,288 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - '/automation/'
+  - 'README.md'
+  - 'LICENSE.txt'
+  - 'CNAME'
+
+
+# Site Settings
+title: "PGDay Down Under 2018"
+email: " "
+description: "PGDay Australia is part of the PostgreSQL conference series for all PostgreSQL enthusiasts in Australia"
+baseurl: ""
+url: "http://pgdu.org/"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: "pgday.com.au"
+siteVerification: ""
+
+# Organizer Info
+organizerName: "PGDay Down Under 2018"
+organizerAlternateName: "PostgreSQL community conference"
+organizerDescription: "Community gathers together to share experiences and new ideas about PostgreSQL."
+organizerEmail: "pgdu-committee@lists.pgdu.org"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "https://www.postgresql.org/"
+
+# Head
+metaKeywords: "event, Postgres, PostgreSQL, conference,open source,linux, programming, developers,openstack, devops,Disaster Recovery, BackUp,partining, PG, Postgres"
+twitterAccount: ""
+socialImageSrcGooglePlus: " "
+socialImageSrcTwitter: " "
+socialImageSrcFacebook: " "
+
+# Documents
+#c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ #- {permalink: "//", text: " "}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/partners/", text: "Supporters"}
+#bottomNavigationLinks:
+#- {link: "https://goo.gl/forms/oX3EJZHE1xWr92pf2", text: "Call for papers"}
+#rightNavigationButtons:
+#- {link: "https://goo.gl/forms/oX3EJZHE1xWr92pf2", text: "Call for papers"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "PGDay Down Under <December 7th, Melbourne> 2018"
+heroTitle: "PGDay Australia"
+eventDate: "Melbourne - December 7th, 2018"
+typeoutTextValues: '" 7 December, 2018  "'
+typeoutFallback: " "
+heroButtons:
+# - {link: "https://goo.gl/forms/oX3EJZHE1xWr92pf2", text: "Call for Papers"}
+ #- {permalink: "/#tickets", text: "Become a sponsor"}
+ #- {link: "https://www.eventbrite.com.au/e/pg-day-australia-2017-tickets-35782315870", text: "Register here"}
+
+# About Block
+aboutTitle: "About PGDay"
+aboutBlock:
+ - {text:
+"The third Australian PostgreSQL conference.
+After the success of PGDay Australia 2017, we're back this year with PGDay Down Under. A one day conference and networking event, which brings together speakers from across the community to share the latest about Postgres news and updates. This year we have a fantastic line up of presenters with some of the most recognised PostgreSQL developers and experts.
+It's a fully catered event; morning and afternoon tea, lunch and drinks. This has been possible thanks to the generous contribution from our sponsors.
+Space is limited so make sure you register.
+" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "PwC Melbourne"
+eventLocationLink: " https://www.pwc.com.au/"
+eventStreetAddress: " Level 19/2 Riverside Quay"
+eventAddressLocality: "Melbourne"
+eventAddressLocalityRegion: "Victoria"
+eventPostalCode: "3006"
+eventAddressCountry: "Australia"
+eventStartTime: "2018-12-7T8:00"
+eventDoorTime: "08:00"
+eventEndTime: "2017-12-7T17:30"
+eventPlaceCoordinates: "-37.811222, 144.970443"
+mapCenterCoordinates: "-37.811222, 144.970443"
+mapMobileCenterCoordinates: "37.8113082, 144.96853271"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "PWC Melbourne"
+venueFeatures: ["Level 19/2 Riverside Quay, Southbank VIC 3006", "www.pwc.com.au", "Conveniently located in the city center"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "Follow Us on "
+twitterHashTag: " "
+twitterFeed: " "
+
+# Partners Block
+#organizersTitle: "Organisers"
+partnersTitle: "Supporters"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+#subscribeTitle: "Registration"
+subscribeAction: "https://www.eventbrite.com.au/e/pg-day-australia-2017-tickets-35782315870"
+subscribeInfo: "Make sure to book your place as seats are limited "
+
+# Tickets Block
+ticketsTitle: ""
+ticketsInfo: ""
+ticketsOffers:
+ -
+  name: "Gold Sponsor"
+  price: "4 Available"
+  priceCurrency: ""
+  ticketsNumber: ""
+  buyButtonLink: "/assets/GDG_DevFest_Partnership.pdf"
+  buyButtonText: "Get in touch"
+  ticketContentList: ["On stage banners", "Mention during the event", "Logo on printed materials", "Logo on webpage"]
+ -
+  name: "Platinum Sponsor"
+  price: "3 Available"
+  priceCurrency: ""
+  ticketsNumber: " "
+  featured: true
+  buyButtonLink: "/assets/GDG_DevFest_Partnership.pdf"
+  buyButtonText: "Get in touch"
+  ticketContentList: ["Stand Space", "Keynote Opportunity", "On stage banners", "Mention during the event", "Logo on printed materials", "Logo on webpage"]
+ -
+  name: "Silver Sponsor"
+  price: "5 Available"
+  priceCurrency: ""
+  ticketsNumber: " "
+  buyButtonLink: "/assets/GDG_DevFest_Partnership.pdf"
+  buyButtonText: "Get in touch"
+  ticketContentList: ["Logo on printed materials", "Logo on webpage"]
+
+# Footer
+socialLinks:
+# - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+#- {link: "https://twitter.com/pgdayau", icon: "twitter"}
+# - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+# - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://www.postgresql.org/", text: "PostgreSQL"}
+ -
+  title: "Contact Us"
+  links:
+  #- {link: "http://2017.pgday.it/en/team/", text: "ITPUG Team"}
+   - {link: "mailto:australiapgday@gmail.com", text: "PGDay Oz Team"}
+ #-
+#  title: "FAQ"
+#  links:
+   #- {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "Talk Selection Commitee"
+aboutUs: "PostgreSQL is the most advanced open source relational database management system.The PostgreSQL community is comprised of an international group of individuals and 3rd-party organisations who contribute to the PostgreSQL Development through various efforts."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "-37.811222, 144.970443"
+logisticsMapMobileCenterCoordinates: "-37.811222, 144.970443"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: " "
+directionDetailsCards:
+     - {title: "From the Airport", information: 'Tullamarine Airport is the primary airport serving the city. Besides Taxi and Uber service you can reach the city center (CBD) by SkyBus. More information is available <a href="https://www.skybus.com.au/melbourne-airport/"> Here </a>.'}
+     - {title: "Public Tranport", information: 'Melbourne has a great Tram network. Hopping on a tram is free within the CBD area. Find here more information on the <a href="https://www.ptv.vic.gov.au/"> Public Transport Victoria </a>.'}
+    # - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "More Info"
+    links:
+     - {link: "mailto:pgdu-committee@lists.pgdu.org", text: "Email Us"}
+    # - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+    # - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+    # - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://www.eventbrite.com.au/e/pg-day-australia-2017-tickets-35782315870", text: "Register here"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+  #  title: "Attendance Details"
+  #  links:
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+  #   - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: true
+
+# Hackathon About Block
+aboutHackathonTitle: "Meet our themes"
+hackathonRows:
+ - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+ - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+ - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Communa"
+hackathonLocationLink: "http://communa.net.ua/"
+hackathonStreetAddress: "1 Halytska St"
+hackathonAddressLocality: "Lviv"
+hackathonAddressLocalityRegion: "Lvivska"
+hackathonPostalCode: "79000"
+hackathonAddressCountry: "Ukraine"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 24.031144"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

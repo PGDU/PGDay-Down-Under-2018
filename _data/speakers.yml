@@ -1,0 +1,150 @@
+-
+  id: 5
+  name: "Joe"
+  surname: "Conway"
+  #company: "Crunchy Data Solutions"
+  title: "PostgreSQl Engineer"
+  bio: "Joe Conway is an innovative leader with broad experience in a wide array
+       of disciplines and extensive international business exposure. He has
+       been involved with the PostgreSQL community since 1998, presently as a
+       PostgreSQL Committer, Major Contributor, and Infrastructure Team member.
+       He is also the author and maintainer of a PostgreSQL procedural language
+       handler for the R language, PL/R. Joe is currently VP PostgreSQL
+       Engineering at Crunchy Data Solutions and a Board Member at the United
+       States PostgreSQL Association (PgUS)."
+  thumbnailUrl: DawidOstrowski.jpg
+  rockstar: true
+  social:
+  - {name: "google-plus", link: " "}
+-
+  id: 6
+  name: "Simon"
+  surname: "Riggs"
+  #company: "2ndQuadrant"
+  title: "CTO"
+  bio: "Simon Riggs is the Founder and Chief Technology Officer of 2ndQuadrant. He
+        is also a major developer and committer of the PostgreSQL project.
+        Simon has contributed major features in each of the last 6 versions of PostgreSQL.
+        His work includes recovery and replication performance and monitoring as well as designs for
+        many other features. Simon has worked as a Database Architect for 20 years with high-end solutions
+        experience and certifications on Oracle Teradata and DB2."
+  thumbnailUrl: SimonRiggs.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "twitter", link: " "}
+    - {name: "github", link: " "}
+-
+  id: 7
+  name: "Rajni"
+  surname: "Baliyan"
+  #company: "Fujitsu"
+  title: "PostgreSQL DBA"
+  bio: "Rajni currently works as a PostgreSQL DBA and engages in pre-sales for database solution at Fujitsu Australia Software Technology.
+  She started her career as Oracle DBA 7 years back and on the way of solving Database problems
+  she got the curiosity to learn other RDBMS like PostgreSQL and SQL server.
+  PostgreSQL attracted her the most and being an Oracle DBA it was not difficult for her to pick it up. Rajni was encouraged to clear PostgreSQL Professional certificate together with Oracle and SQL Server professional certificates."
+  thumbnailUrl: Rajni.jpg
+  rockstar: true
+  #ribbon:
+  #  - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  #  - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  social:
+    - {name: "google-plus", link: ""}
+    - {name: "twitter", link: " "}
+-
+  id: 8
+  name: "Craig"
+  surname: "Ringer"
+  #company: "2ndQuadrant"
+  title: "Senior Software Engineer and Developer"
+  bio: "Craig Ringer is a software developer at 2ndQuadrant with interests in usability/UX and in distributed database systems. He's based in Western Australia "
+  thumbnailUrl: CraigRinger.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "twitter", link: " "}
+-
+  id: 9
+  name: "Thomas"
+  surname: "Munro"
+  #company: "EnterpriseDB"
+  title: "Programmer"
+  bio: "Thomas Munro is a member of the Database Server team at EnterpriseDB where he works on
+  Postgres Plus Advanced Server and PostgreSQL.  He has made a number of contributions to PostgreSQL
+  including adding new features, fixing bugs and reviewing patches.  He intends to keep doing that.
+  Before becoming an open source database hacker he worked on Unix, C, C++ and database systems in the fintech industry."
+  thumbnailUrl: ThomasMunro.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "site", link: " "}
+-
+  id: 10
+  name: "Maxim"
+  surname: "Boguk"
+  #company: "Data Egret"
+  title: "Chief DBA"
+  bio: "Maxim Boguk is a Chief DBA and a co-Founder of Data Egret.
+  A firm, specialising in all things PostgreSQL from database maintenance to system administration support.
+  He has been in the industry for over 15 years and is an experienced Slonik trainer.
+  Maxim lives and works in Australia and enjoys having a break from it all surfing and piloting light airplanes."
+  thumbnailUrl: MaximBoguk.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "site", link: " "}
+-
+  id: 11
+  name: "Hari Babu"
+  surname: "Kommi"
+  #company: "Fujitsu"
+  title: "Senior Software Development Engineer"
+  bio: "Hari Babu is a Senior Software Development Engineer in Fujitsu Australia Software Technology
+  and is working with both open source PostgreSQL and Fujitsu Enterprise Postgres.
+  I actively participates in the development of PostgreSQL, both developing
+  with PostgreSQL and developed an extension to improve the performance of the queries in hybrid
+  database model."
+  thumbnailUrl: HariBabu.jpg
+  rockstar: true
+  social:
+      - {name: "google-plus", link: " "}
+      - {name: "site", link: " "}
+-
+  id: 12
+  name: "Gabriele"
+  surname: "Bartolini"
+  #company: "2ndQuadrant"
+  title: "Head of Global Support"
+  bio: "A long time open-source programmer and entrepreneur, Gabriele has a degree in Statistics from the University of Florence. Gabriele is the Head of Global Support at 2ndQuadrant and managing director of the Italian office as well as an active member of the international PostgreSQL community and local ITPUG. His commitment is to consistently contribute to the growth of 2ndQuadrant and it’s members through nurturing a lean and devops culture. Gabriele lives in Prato, a small but vibrant city located in the northern part of Tuscany, Italy. His second home is Melbourne, Australia, where he studied at Monash University and worked in the ICT sector.
+  His hobbies include “calcio” (football or soccer, depending on which part of the world you come from) and playing his Fender Stratocaster electric guitar. But his major passion is called: Elisabeth - his sweet 1-year old daughter!"
+  thumbnailUrl: GabBartolini.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "site", link: " "}
+-
+  id: 13
+  name: "Gary"
+  surname: "Evans"
+  #company: "Fujitsu"
+  title: "Software Engineer"
+  bio: "Gary currently works for Fujitsu Australia in the PostgreSQL Services and Support team, where he works with Fujitsu Customers to help them get the best out of PostgreSQL and Fujitsu Enterprise Postgres.  His software development background utilising Microsoft and open source technologies adds to the diversity of the services team; allowing a rich pool of resources when designing solutions for Fujitsu customers. "
+  thumbnailUrl: EvansG.jpg
+  rockstar: true
+  social:
+    - {name: "google-plus", link: " "}
+    - {name: "site", link: " "}
+-
+  id: 14
+  name: "Robert"
+  surname: "Lechte"
+  #company: "Australian Council of Trade Unions "
+  title: "Software Engineer"
+  bio: "Python coder, data massager, open sorcerer, opinion haver, union thug, peanut butter enthusiast, Postgres fanboy. Robert created the data warehousing for New Zealand's supercomputing infrastructure (proof that even the smallest countries can sometime have big data) and then worked for the Digital Transformation Agency in Sydney. He relocated in Melbourne last April to work for the union movement.
+        Robert likes talking about software and he recently presented at PostgresOpen Conference that was held in San Francisco at the beginning of September "
+  thumbnailUrl: RobLechte.jpg
+  rockstar: true
+  social:
+      - {name: "google-plus", link: " "}
+      - {name: "site", link: " "}
